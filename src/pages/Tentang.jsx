@@ -4,7 +4,7 @@ import { ThemeContext } from "../context/themeContext";
 import {
   LayoutOFBeranda,
   LayoutOFTK,
-  PPGithubHendri,
+  Testingwe,
 } from "../components/Assets";
 import {
   AssetsCode,
@@ -129,11 +129,11 @@ const Tentang = () => {
                   marginTop: 10,
                 }}
               >
-                <PPGithubHendri />
+                <Testingwe />
                 <div className="container column item-center">
                   <div className="container column">
-                    <h3>henhen02</h3>
-                    <h4>Tugas-Individu-3-PWL</h4>
+                    <h3>Dejetto</h3>
+                    <h4>TI-3-PWL</h4>
                   </div>
                   <div className="container column">
                     <DirectButton
