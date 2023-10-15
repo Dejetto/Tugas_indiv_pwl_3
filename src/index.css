@@ -18,7 +18,7 @@ nav {
   display: inherit;
   padding: 20px 30px;
   align-items: flex-end;
-  background-color: #222831;
+  background-color: #2f5f45;
   justify-content: space-between;
 }
 input {
@@ -59,7 +59,7 @@ header {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color: #393E46;
+  background-color: #386e3b;
 }
 main {
   flex: 1;
@@ -69,12 +69,12 @@ main {
   flex-direction: column;
 }
 .light {
-  color: #222831;
+  color: #2e7039;
   background-color: #EEE2DE;
 }
 .dark {
   color: #EEE2DE;
-  background-color: #222831;
+  background-color: #30705d;
 }
 footer {
   padding: 20px;
@@ -82,7 +82,7 @@ footer {
   color: #00ADB5;
   align-items: center;
   justify-content: center;
-  background-color: #393E46;
+  background-color: #528561;
 }
 button {
   gap: 10px;
@@ -104,10 +104,10 @@ th, td{
   color: #00ADB5;
 }
 .add {
-  background-color: #00ADB5;
+  background-color: #b5009d;
 }
 .delete {
-  background-color: #ff5d5d;
+  background-color: #885dff;
 }
 .reset {
   background-color: #222831;

@@ -1,6 +1,6 @@
 // component
 import Header from "../components/Header";
-import { Curious } from "../components/Assets";
+import { Ditanya } from "../components/Assets";
 import { ThemeContext } from "../context/themeContext";
 import { AddButton, MinButton, ResetButton } from "../components/Button";
 
@@ -14,11 +14,11 @@ const Beranda = () => {
   const [number, setNumber] = useState(0);
 
   const increment = () => {
-    setNumber(number + 1);
+    setNumber(number + 5);
   };
 
   const decrement = () => {
-    number > 0 ? setNumber(number - 1) : alert(`Number already ${number}`);
+    number > 0 ? setNumber(number - 5) : alert(`Number already ${number}`);
   };
 
   const resetNumber = () => {
@@ -39,12 +39,12 @@ const Beranda = () => {
           }`}
         >
           <div className="container row item-center">
-            <Curious />
+            <Ditanya />
             <div className="container column">
-              <h1>Apa itu TIM 3?</h1>
+              <h1>Tugas Individu 3?</h1>
               <p>
-                Tugas individu minggu 3 atau TIM 3, adalah ajang bagi mahasiswa
-                kelas Pemrograman Web Lanjut untuk mengembangkan bakat dan
+                Tugas individu minggu 3 itu tugas untuk mahasiswa
+                kelas Pemrograman Web Lanjut agar dapat mengembangkan bakat dan
                 keahlianya dalam dunia pemrograman web
               </p>
             </div>
